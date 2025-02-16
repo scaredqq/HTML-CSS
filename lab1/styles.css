@@ -1,0 +1,169 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #2C2C2C;
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid  #e873b5; 
+  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 280px;
+  text-align: center;
+}
+
+.result {
+  background-color: #333333;
+  color: #fbfbfb; 
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto 20px auto; 
+  width: 90%; 
+  text-align: right;
+}
+
+.sber {
+  display: flex;
+  justify-content: center; /* Выравнивание по горизонтали */
+  align-items: center; /* Выравнивание по вертикали */
+  height: 200px; /* Укажите нужную высоту для блока */
+}
+
+.sber img {
+  max-width: 80%;  /* Ограничивает ширину изображения */
+  max-height: 80%; /* Ограничивает высоту изображения */
+  width: auto;      /* Сохраняет пропорции изображения */
+  height: auto;     /* Сохраняет пропорции изображения */
+}
+
+
+/* Кнопки */
+.my-btn {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  background-color: #444444;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.my-btn:hover {
+  background-color: #555555; 
+}
+
+.my-btn:active {
+  background-color: #666666;
+}
+
+.my-btn.primary {
+  background-color: #e873b5; 
+}
+
+.my-btn.secondary {
+  background-color: #616161; 
+}
+
+.my-btn.raidus {
+  border-radius: 10px;
+}
+
+.my-btn.execute {
+  width: 110px;
+  border-radius: 10px;
+}
+
+.theme-toggle {
+  margin-top: 15px;
+  background-color: #c56c9e; 
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.green-theme .calculator {
+  background-color: #f1eeeb; 
+}
+
+body.green-theme {
+  background-color: #dad8d5; 
+}
+
+
+
+body.green-theme .my-btn.raidus {
+  background-color: #c8cdc9;
+}
+
+body.green-theme .result {
+  background-color: #adacab; 
+}
+
+body.green-theme .my-btn.primary {
+  background-color: #c56c9e; 
+}
+
+body.green-theme .my-btn.secondary  {
+  background-color: #616161; 
+}
+
+
+
+
+body.green-theme .background {
+  background-color: #c8cdc9;  
+}
+
+body.green-theme .goal {
+  color: #0a0a0a;  
+}
+
+body.green-theme .details {
+  color: #0a0a0a;  
+}
+
+
+
+
+
+.github-link {
+  display: block;
+  margin-top: 10px;
+  color: #e873b5; 
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 10px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+details {
+  margin-top: 15px;
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.goal {
+  margin-top: 20px;
+  color: white;
+}
